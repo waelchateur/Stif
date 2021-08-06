@@ -1,5 +1,5 @@
 
-![Logo](https://raw.githubusercontent.com/Nethical-org/Stif/main/Logo.png)
+![Logo](/github/readme/assets/img/logo-big.jpg)
 
     
 
@@ -7,15 +7,15 @@
   
 # Stif
 
-An Open source project for building Android Application at a go without or with coding.
+An Open source project for building Android Application at a go both with and without coding.
 
 This project was inspired from [Scratch](https://scratch.mit.edu/) and Sketchware.
-As sketchware is now no more maintained we decided to create our own sketchware . 
+As sketchware is now no more maintained we decided to create our own sketchware. 
 
 Please Make sure of these things before contributing to our repositories :
 
 - Make sure to add comments to make it easier for other contributors to work on your code
-- Dont fake commits
+- Don't make fake commits
 - Make sure you are capable to make commits
 
 ## How To Contribute
