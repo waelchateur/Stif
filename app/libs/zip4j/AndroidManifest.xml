@@ -1,6 +1,0 @@
-<manifest
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	package="com.zip4j">
-	<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="28" />
-	</application>
-</manifest>

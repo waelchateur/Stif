@@ -1,1 +1,6 @@
+include ':rosemoeeditor'
+include ':rosemoejava'
+include ':rosemoe base'
+include ':gson'
+include ':classes'
 include ':app'

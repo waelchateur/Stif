@@ -1,9 +1,5 @@
 package nethical.stif;
 
-import io.github.rosemoe.editor.*;
-import com.github.angads25.filepicker.*;
-import io.github.rosemoe.editor.langs.base.*;
-import io.github.rosemoe.editor.langs.java.*;
 import com.zip4j.*;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;

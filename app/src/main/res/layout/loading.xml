@@ -13,15 +13,11 @@
 		android:background="@android:color/transparent"
 		android:gravity="center_horizontal|center_vertical"
 		android:orientation="horizontal">
-		<com.airbnb.lottie.LottieAnimationView
+
+		<LinearLayout
 			android:id="@+id/lottie1"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
-			android:padding="8dp"
-			android:scaleType="fitCenter"
-			android:layout_centerInParent="true"
-			app:lottie_fileName="your_file.json"
-			app:lottie_loop="true"
-			app:lottie_autoPlay="true"/>
+			android:padding="8dp" />
 	</LinearLayout>
 </LinearLayout>

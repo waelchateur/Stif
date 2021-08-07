@@ -1,20 +1,7 @@
 package nethical.stif;
 
-import io.github.rosemoe.editor.*;
 import com.github.angads25.filepicker.*;
-import io.github.rosemoe.editor.langs.base.*;
-import io.github.rosemoe.editor.langs.java.*;
 import com.zip4j.*;
-import io.github.rosemoe.editor.interfaces.EditorLanguage;
-import io.github.rosemoe.editor.langs.EmptyLanguage;
-import io.github.rosemoe.editor.langs.desc.CDescription;
-import io.github.rosemoe.editor.langs.desc.CppDescription;
-import io.github.rosemoe.editor.langs.desc.JavaScriptDescription;
-import io.github.rosemoe.editor.langs.java.JavaLanguage;
-import io.github.rosemoe.editor.langs.universal.UniversalLanguage;
-import io.github.rosemoe.editor.widget.CodeEditor;
-import io.github.rosemoe.editor.widget.EditorColorScheme;
-import io.github.rosemoe.editor.widget.schemes.SchemeGitHub;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.annotation.*;
