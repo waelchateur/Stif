@@ -141,13 +141,12 @@ public class AllprojectsActivity extends  AppCompatActivity  {
 					//Set the icon for app
 						@Override
 						public void onClick(View _view) {
-						
 						DialogProperties properties = new DialogProperties();
 						    properties.selection_mode = DialogConfigs.SINGLE_MODE;
 						    properties.selection_type = DialogConfigs.FILE_SELECT;
-						    properties.root = new File(path);
-						    properties.error_dir = new File(path);
-						    properties.offset = new File(path);
+						    properties.root = new File(DialogConfigs.DEFAULT_DIR);
+						    properties.error_dir = new File(DialogConfigs.DEFAULT_DIR);
+						    properties.offset = new File(DialogConfigs.DEFAULT_DIR);
 						    properties.extensions = null;
 						
 						    FilePickerDialog dialog = new FilePickerDialog(AllprojectsActivity.this,properties);

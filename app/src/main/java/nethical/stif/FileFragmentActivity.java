@@ -59,13 +59,10 @@ public class FileFragmentActivity extends  Fragment  {
 	
 	private ArrayList<HashMap<String, Object>> map = new ArrayList<>();
 	private ArrayList<String> AllFiles = new ArrayList<>();
-	
+
 	private LinearLayout linear1;
-	private LinearLayout linear2;
 	private LinearLayout linear4;
 	private ListView listview1;
-	private HorizontalScrollView hscroll1;
-	private TextView textview2;
 	private LinearLayout linear5;
 	private TextView textview4;
 	private ImageView imageview1;
@@ -81,11 +78,8 @@ public class FileFragmentActivity extends  Fragment  {
 	private void initialize(Bundle _savedInstanceState, View _view) {
 		
 		linear1 = (LinearLayout) _view.findViewById(R.id.linear1);
-		linear2 = (LinearLayout) _view.findViewById(R.id.linear2);
 		linear4 = (LinearLayout) _view.findViewById(R.id.linear4);
 		listview1 = (ListView) _view.findViewById(R.id.listview1);
-		hscroll1 = (HorizontalScrollView) _view.findViewById(R.id.hscroll1);
-		textview2 = (TextView) _view.findViewById(R.id.textview2);
 		linear5 = (LinearLayout) _view.findViewById(R.id.linear5);
 		textview4 = (TextView) _view.findViewById(R.id.textview4);
 		imageview1 = (ImageView) _view.findViewById(R.id.imageview1);

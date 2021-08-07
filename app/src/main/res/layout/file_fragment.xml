@@ -16,48 +16,40 @@
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:orientation="horizontal">
-			<HorizontalScrollView
-				android:id="@+id/hscroll1"
-				android:layout_width="match_parent"
-				android:layout_height="wrap_content"
-				android:padding="8dp">
-				<TextView
-					android:id="@+id/textview2"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					android:padding="8dp"
-					android:text="TextView"
-					android:textSize="12sp"
-					android:textColor="#263238"/>
-			</HorizontalScrollView>
+
 		</LinearLayout>
+
 		<LinearLayout
 			android:id="@+id/linear4"
 			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
+			android:layout_height="83dp"
 			android:gravity="center_vertical"
-			android:orientation="horizontal">
+			android:orientation="horizontal"
+			android:padding="8dp">
+
 			<LinearLayout
 				android:id="@+id/linear5"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:padding="8dp"
-				android:orientation="vertical">
+				android:orientation="vertical"
+				android:padding="8dp">
+
 				<ImageView
 					android:id="@+id/imageview1"
 					android:layout_width="50dp"
 					android:layout_height="50dp"
-					android:src="@drawable/folder"
-					android:scaleType="fitCenter"/>
+					android:scaleType="fitCenter"
+					android:src="@drawable/folder" />
 			</LinearLayout>
+
 			<TextView
 				android:id="@+id/textview4"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:padding="8dp"
 				android:text="••••••"
-				android:textSize="18sp"
-				android:textColor="#000000"/>
+				android:textColor="#000000"
+				android:textSize="18sp" />
 		</LinearLayout>
 		<ListView
 			android:id="@+id/listview1"

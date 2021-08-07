@@ -1,8 +1,13 @@
 package nethical.stif;
-
+/*
 import com.github.angads25.filepicker.*;
-import com.zip4j.*;
-
+import io.github.rosemoe.editor.interfaces.EditorLanguage;
+import io.github.rosemoe.editor.langs.EmptyLanguage;
+import io.github.rosemoe.editor.langs.java.JavaLanguage;
+import io.github.rosemoe.editor.widget.CodeEditor;
+import io.github.rosemoe.editor.widget.EditorColorScheme;
+import io.github.rosemoe.editor.widget.schemes.SchemeGitHub;
+*/
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.annotation.*;
 import android.app.*;
@@ -54,7 +59,7 @@ public class LogicFragmentActivity extends  Fragment  {
 	}
 	
 	private void initializeLogic() {
-        editor.setText("This View is to be replaced with rosemoe code editor");
+
 	//there was some compiler issue using rosemoe codeditor
 		/*editor.setTypefaceText(Typeface.MONOSPACE);
 		
