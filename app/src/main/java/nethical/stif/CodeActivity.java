@@ -29,6 +29,9 @@ import org.json.*;
 import android.widget.LinearLayout;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayout.OnTabSelectedListener;
+import com.tyron.layouteditor.ApplicationLoader;
+import com.tyron.layouteditor.DesignActivity;
+
 import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager.OnPageChangeListener;
@@ -50,7 +53,9 @@ public class CodeActivity extends  AppCompatActivity  {
 	private TextView prname;
 	private LinearLayout linear2;
 	private ImageView imageview3;
-	
+	private ImageButton ledit;
+
+
 	@Override
 	protected void onCreate(Bundle _savedInstanceState) {
 		super.onCreate(_savedInstanceState);
@@ -68,7 +73,8 @@ public class CodeActivity extends  AppCompatActivity  {
 		prname = (TextView) findViewById(R.id.prname);
 		linear2 = (LinearLayout) findViewById(R.id.linear2);
 		imageview3 = (ImageView) findViewById(R.id.imageview3);
-		
+		ledit = (ImageButton) findViewById(R.id.ledit);
+
 		viewpager1.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 			@Override
 			public void onPageScrolled(int _position, float _positionOffset, int _positionOffsetPixels) {
@@ -90,8 +96,22 @@ public class CodeActivity extends  AppCompatActivity  {
 	private void initializeLogic() {
 		viewpager1.setAdapter(new MyFragmentAdapter(getApplicationContext(), getSupportFragmentManager(), 2));
 		tablayout1.setupWithViewPager(viewpager1);
+
+		ledit.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				Intent intent = null;
+				try {
+					intent = new Intent(CodeActivity.this,Class.forName("com.tyron.layouteditor.DesignActivity"));
+				} catch (ClassNotFoundException e) {
+					e.printStackTrace();
+				}
+				startActivity(intent);
+			}
+		});
+
 	}
-	
+
 	@Override
 	protected void onActivityResult(int _requestCode, int _resultCode, Intent _data) {
 		

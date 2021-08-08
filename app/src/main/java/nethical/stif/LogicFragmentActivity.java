@@ -39,11 +39,15 @@ import androidx.core.app.ActivityCompat;
 import android.Manifest;
 import android.content.pm.PackageManager;
 
+import com.tyron.layouteditor.ApplicationLoader;
+import com.tyron.layouteditor.DesignActivity;
 
 public class LogicFragmentActivity extends  Fragment  { 
 	
 	
 	private EditText editor;
+
+	private  Intent intent;
 	@NonNull
 	@Override
 	public View onCreateView(@NonNull LayoutInflater _inflater, @Nullable ViewGroup _container, @Nullable Bundle _savedInstanceState) {
@@ -59,7 +63,7 @@ public class LogicFragmentActivity extends  Fragment  {
 	}
 	
 	private void initializeLogic() {
-
+		
 	//there was some compiler issue using rosemoe codeditor
 		/*editor.setTypefaceText(Typeface.MONOSPACE);
 		

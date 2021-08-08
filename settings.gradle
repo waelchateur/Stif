@@ -1,3 +1,4 @@
+include ':layoutEditor'
 include ':rosemoeeditor'
 include ':rosemoejava'
 include ':rosemoe base'
